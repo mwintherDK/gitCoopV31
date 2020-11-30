@@ -1,0 +1,21 @@
+nav {
+  height: 100%;
+  width: 50%;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+nav a {
+  font-weight: 700;
+  color: gray;
+}
+nav a:hover {
+  color: rgb(95, 95, 95);
+}
