@@ -6,16 +6,16 @@
 
 const articleFunction = () =>{
     const imagesLink = [
-        "img/find_butik.png",
-        "img/facebook.png",
-        "img/club_bs.png"
+        "find_butik",
+        "facebook",
+        "club_bs"
     ]
     const section = document.querySelector(".featured");
     imagesLink.forEach((img) =>{
         const figure = document.createElement("figure");
         figure.classList.add("imageFigure");
         const image = document.createElement("img");
-        image.src = img;
+        image.src = `img/${img}.png`;
         console.log(img);
         figure.appendChild(image);
         section.appendChild(figure);
